@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MountainTrip!</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="font/fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/routes.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="container flex">
+            <a href="index.html" class="site-brand">
+                Mountain<span>Trip!</span>
+            </a>
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Acasa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="routes.php" class="nav-link">Trasee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sugestii.php" class="nav-link">Sugestii</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.php" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end navbar-->
+
+    <!--header-->
+    <header class="flex">
+        <div class="head">
+            <div class="form-box">
+                <input type="text" class="search-field" placeholder="Trip name">
+            </div>
+            <button class="search-buton" type="button" style="color: #ac7e62;">Search</button>
+
+
+
+        </div>
+    </header>
+    <!--header-->
+    <!--service section-->
+    <section style="background-color:#D3D3D3" class="services">
+        <div class="title-wrap">
+
+            <h2 style="color: #5b828e" class="lg-title">Tipuri de trasee</h2>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="incepatori.html">
+                    <img src="images/munteunou.png" alt="">
+                    <h3 style="position: center; color: #e0e0e0;">Trasee Usoare</h3>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="experimentati.html">
+                    <img src="images/muntenou.png" alt="">
+                    <h3 style="color: #e0e0e0;">Trasee Dificile</h3>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="bicicleta.html">
+                    <img src="images/mountainbikenou.png" alt="">
+                    <h3 style="color: #e0e0e0;">Trasee cu Bicicleta</h3>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="informatiinecesare.html">
+                    <img src="images/advicenou.png" alt="">
+                    <h3 style="color: #e0e0e0;">Sfaturi</h3>
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="echipamente.html">
+                    <img src="images/backpacknou.png" alt="">
+                    <h3 style="color: #e0e0e0;">Articole Necesare</h3>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+    <!--footer-->
+    <footer style="color:#5b828e;" class="footer">
+        <div class="row container">
+            <div class="col">
+                <a style="color:#ba9a88;" href="index.html" class="site-brand">
+                    Mountain<span>Trip!</span>
+                </a>
+
+                <p class="text" style="color: #fff;">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                    not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                    Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum.
+                </p>
+
+            </div>
+            <div class="col">
+                <h2 style="color:#ba9a88;">Follow us on: </h2>
+                <ul class="social-links">
+                    <li>
+                        <a style="color:#fff;" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="color:#fff;" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a style="color:#fff;" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+
+                <div class="col">
+                    <h2 style="color:#ba9a88;">Popular Places:</h2>
+                    <ul>
+                        <li><a style="color:#ffff;" href="izvorulmuntelui.php"> Izvorul Muntelui, Cabana Dochia</a>
+                        </li>
+                        <li><a style="color:#ffff;" href="satulghetar.php"> Satul Ghetar, Pestera Scarisoara </a></li>
+                        <li><a style="color:#ffff;" href="pietrosul.php">Borsa, Varful Pietrosu, Tarnita la Cruce</a>
+                        </li>
+                        <li><a style="color:#ffff;" href="sauabaiului.php"> Saua Baiului, Varful Leuca Mica, Valea
+                                Grecului, Azuga</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end of footer-->
+    <!--js-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
